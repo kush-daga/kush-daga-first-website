@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+*{
+	box-sizing: border-box;
+}
+body {
+	  background: url("marblebg.jpg");
+	/*background-size: cover;*/
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+  .homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+
+  .video-container video {
+    position: relative;
+    z-index: 0;
+    bottom: 0;
+  }
+
+  .video-container video.fillWidth {
+    width: 100%;
+  }
+
+.showcase .showcase-text{
+	padding: 7rem;
+	margin-bottom: auto;
+	margin-top: auto;
+
+}
+.showcase-img{
+	min-height: 30rem;
+    background-size: cover;
+}
+.lead-h{
+	font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+}
+.lead{
+	font-family: 'Lato', sans-serif;
+}
