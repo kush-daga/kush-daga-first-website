@@ -7,12 +7,16 @@ I implemented all that you wanted us to try..
 1. Modals
 2. Circular images
 3.Fixed Nav bar( altho i was able to keeo it fixed while scrolling only the first page..would like to know how to implement it fully on webpage).
-
+I implemented all that you wanted us to try..
+1. Modals
+2. Circular images
+3.Fixed Nav bar( altho i was able to keeo it fixed while scrolling only the first page..would like to know how to implement it fully on webpage).
+  This also helped in my coding stuff.
 Also I am facing a bug in this webpage i created, the bug us that when i open the webpage first time the modal works well, however when i refresh the page and try to open it again, it doesnt work..i dont know why this is happening, please help.
 ( modal is the contact me button).
 
 Thanks
-Kush Daga (btech COE)(rank-35657)
-hostel H
+Dhairya Mahajan
+hostel b
 
 PS: Sorry for the typos.
