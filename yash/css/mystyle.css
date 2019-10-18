@@ -1,0 +1,70 @@
+.nav_left{
+    float: left;
+    
+    padding: 6px;
+    border-radius: 3px;
+}
+ul li{
+    padding: 0px;
+}
+.nav_right{
+    float: right;
+    
+    padding: 4px 4px 0px 4px;
+}
+.member{
+    position: relative;
+    
+}
+.list_member{
+    position: absolute;
+    display: none;
+    border-radius: 10px;
+    
+}
+.member:hover .list_member{
+    display: block;
+    background-color: black;
+    padding: 15px;
+    
+    
+    
+}
+.main_nav{
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 24px;
+    color: red;
+    
+}
+.main_list{
+    padding: 0px;
+}
+
+.body_yash{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+h4{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.img{
+    border: groove black;
+    border-radius: 10px;
+    
+}
+.container_main{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid black;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 20px;
+}
+#login_page_link:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,93 @@
+/*.body_main{
+    /*background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    
+} */
+.body_main{
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    
+}
+/* Login Page Style Rule*/
+.login_body_main{
+    background-image: url(img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    
+    
+    
+}
+.login_body{
+    margin-top: 109px;
+    height: auto;
+    /*border: solid red;*/
+    font-size: 17px;
+}
+.login_password{
+    margin-top: 30px;
+    position: relative;
+}
+.cont_main_column{
+    /*border: solid black;*/
+    border-radius: 15px;
+    height: auto;   
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.5);
+    transition: background-color 0.7s,border-radius 2s;
+    transition-timing-function: ease-out;
+     
+    
+}
+#login_button{
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.5);
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.cont_main_column:hover{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 30px;
+    
+}
+.left_bottom_nav{
+    border-radius: 15px;
+}
+.navbar-fixed-bottom{
+    margin-left: 30px;  
+    
+}
+.loggedin{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+.forget_pass{
+    margin-left: 10px;
+    color: red;
+    position: relative;
+    font-style: none;
+    color: black;
+}
+.sign_up{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    float: right;
+}
+.left_bottom_nav{
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.5);
+}
